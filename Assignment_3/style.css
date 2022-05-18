@@ -1,0 +1,558 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F7E7C1;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 500;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #823c3c;
+    padding: 20px;
+    border-bottom-style: double;
+    border-width: thick;
+    color: #F7E7C1;
+}
+
+.left_header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    gap: 80px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.right_header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    gap: 80px;
+    font-size: 20px;
+}
+.icon{
+  width: 100px;
+  height: 100px;
+  margin-left: 130px;
+}
+.basketIcon{
+     width: 40px;
+     height: 40px;
+     margin-right: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+  color: #9f7e40;
+}
+ #thewavideos  {
+   background-image: url(./images/bg1.jpg);
+   padding: 0;
+   margin-bottom: 35px;
+ }
+
+.E1 {
+  width: 430px;
+  height: 300px;
+}
+
+.E2 {
+  width: 430px;
+  height: 300px;
+}
+
+
+#introduction {
+  display: flex;
+  flex-direction: row;
+  background-color: #823c3c;
+  justify-content: space-around;
+}
+
+#introduction_left {
+  color: #823c3c;
+}
+.Thewa {
+  width: 250px;
+  height: 150px;
+  margin-left: 60px;
+  margin-top: 80px;
+  color: #823c3c;
+}
+
+#introduction p {
+  width: 640;
+  text-align: left;
+  color: #F7E7C1;
+  margin-left: 15px;
+  margin-top: 40px;
+  padding: 0px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.view_more {
+  background-color: #9f7e40;
+  color : #F7E7C1;
+  border-radius: 15px;
+  font-size: 14px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 550px;
+}
+
+.view_more:hover {
+  color: #823c3c;
+}
+
+.read_more {
+  text-decoration: none;
+  background-color: #9f7e40;
+  padding: 10px !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  color : #F7E7C1;
+  font-size: 14px !important;
+  width: auto;
+}
+
+.read_more:hover {
+  color: #823c3c;
+}
+
+.Pframe {
+  display: flex;
+  margin-top: 2px;
+  margin-right: 10px;
+  width: 700px;
+  height: 700px;
+}
+
+#painting1 div h3{
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+
+#painting1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.Rajasthan {
+  width: 1519px;
+  height:490px;
+}
+
+#painting1 h2 {
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  color: #823c3c;
+}
+
+#painting1 h3 {
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  color: #823c3c;
+}
+
+.about_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #823c3c;
+}
+
+.Mini {
+  width: 625px;
+  height: 585px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  color: #F7E7C1;
+}
+
+#about h5 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+#process {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.motif1 {
+  width: 20px;
+  height: 10px;
+}
+
+.Head {
+  width: 350px;
+  height: 220px;
+}
+.para1 {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  width: 700px;
+  color: #823c3c;
+  margin-left: 410px;
+}
+
+#processDisplay {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  align-items: center;
+
+}
+.p1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#processDisplay div img {
+  width: 300px;
+  height: 200px;
+  border-radius: 30%;
+}
+
+#processDisplay div h1 {
+   font-size: 25px;
+   font-weight: bold;
+   color: #823c3c;
+   margin-top: 20px;
+}
+
+#processDisplay div p {
+   font-size: 16px;
+   font-weight: 520;
+   color: #823c3c;
+   width: 400px;
+   margin-top: 20px;
+}
+
+#processDisplay2 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  align-items: center;
+}
+.p2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+#processDisplay2 div h1 {
+   font-size: 25px;
+   font-weight: bold;
+   color: #823c3c;
+}
+
+#processDisplay2 div p {
+   font-size: 16px;
+   font-weight: 520;
+   color: #823c3c;
+   width: 400px;
+   margin-top: 20px;
+}
+
+#processDisplay2 div img {
+  width: 300px;
+  height: 200px;
+  border-radius: 30%;
+}
+
+#thewavideos {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#our1v {
+  width: 32%;
+}
+
+#our1v {
+  background-repeat: none;
+  background-size: cover;
+  align-items: center;
+}
+
+
+
+.motif {
+  width: 20px;
+  height: 10px;
+  margin-left: 150px;
+}
+
+#products {
+  position: relative;
+  padding: 80px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.motif1 {
+  width: 100px;
+  height: 100px;
+}
+
+.Icon3 {
+  margin-top: 24px;
+  width: 170px;
+  height: 100px;
+}
+
+.motif2 {
+  width: 100px;
+  height: 100px;
+}
+
+.para {
+  width: 720px;
+  font-size: 15px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: -5px;
+  color: #823c3c;
+}
+
+#productsDisplay {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+#productsDisplay div img {
+  width: 170px;
+}
+
+.Product3 {
+  width: 3100px;
+  height: 230px;
+  margin-top: 10px;
+}
+
+#productsDisplay h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.product_container {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: #823c3c;
+    font-weight: 300;
+}
+
+/* .product_container a {
+  font-size: 15px;
+  background-size: 20px;
+  font-style: oblique;
+  font-weight: 300;
+} */
+
+.coins {
+  border-top: 40px solid #823c3c;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postcard1 {
+  width: 1439px;
+  height: 770px;
+  display: flex;
+  justify-content: space-around;
+  border: 40px solid #823c3c;
+}
+
+#jewellery {
+  background-image: url(./images/bg3.png);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 40px;
+  gap:40px;
+  padding-top: 40px;
+  align-items: center;
+  color: #823c3c;
+  width: 1366px;
+  height: 720px;
+  margin-left: 80px;
+}
+
+.J1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.jewel2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+#jewellery div p {
+   font-size: 18px;
+   font-weight: 620;
+   color: #823c3c;
+   width: 100px;
+   margin-top: 20px;
+}
+
+.jewel_img_container{
+  overflow: hidden;
+}
+
+.jewel2 img {
+  width: 300px;
+  height: 330px;
+  background-size: cover;
+  background-color: red;
+  transition: transform .2s;
+}
+
+.jewel2 img:hover {
+  transform:scale(1.3);
+}
+
+
+.view_all {
+  background-color: #9f7e40;
+  color : #F7E7C1;
+  border-radius: 15px;
+  font-size: 18px;
+  padding: 10px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+}
+
+#aboutus {
+  background-color: #823c3c;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 40px;
+  gap:10px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  align-items: center;
+}
+
+.A1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.aboutme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#aboutus div p {
+   font-size: 16px;
+   font-weight: 520;
+   color:#F7E7C1;
+   width: 100px;
+   margin-top: 20px;
+}
+
+#aboutus div img {
+  width: 150px;
+  height: 200px;
+  background-size: cover;
+}
+#footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(114,80,80);
+  height : 200px;
+  gap:30px;
+  color : #F7E7C1;
+}
+#footer hr{
+  width: 30%;
+  margin-bottom: 30px;
+  color : #F7E7C1;
+}
+.link_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.link{
+ display: flex;
+ flex-direction: column;
+ gap:15px;
+ justify-content: center;
+ align-items: center;
+}
+.link img{
+  width: 30px;
+  height: 30px;
+}
